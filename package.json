@@ -6,10 +6,10 @@
     "version": "0.0.0",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Angular-RU/angular-websocket-starter.git"
+        "url": "git+https://github.com/AlexDaSoul/angular-websocket-starter.git"
     },
     "bugs": {
-        "url": "https://github.com/Angular-RU/angular-websocket-starter/issues"
+        "url": "https://github.com/AlexDaSoul/angular-websocket-starter/issues"
     },
     "scripts": {
         "ng": "ng",
