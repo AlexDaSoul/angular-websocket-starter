@@ -1,0 +1,70 @@
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    margin-bottom: .5rem;
+    padding-bottom: .5rem;
+    border-bottom: 1px #eee solid;
+}
+
+li:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0 none;
+    overflow: hidden;
+}
+
+form, .texts {
+    align-self: start;
+}
+
+textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 15px;
+    float: right;
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.counter {
+    text-align: center;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+.remove {
+    display: block;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    float: right;
+    line-height: 16px;
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
