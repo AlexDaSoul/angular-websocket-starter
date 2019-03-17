@@ -5,7 +5,7 @@
 ## Installation
 For angular 6:
 ```bash
-$ git clone https://github.com/Angular-RU/angular-websocket-starter.git
+$ git clone https://github.com/AlexDaSoul/angular-websocket-starter.git
 $ cd angular-websocket-starter
 $ npm install
 $ npm run start
